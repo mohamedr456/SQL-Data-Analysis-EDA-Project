@@ -51,7 +51,7 @@ This repository showcases expertise in:
 **Objective**: Load datasets into your relational database.  
 
 **Steps**:  
-- Import datasets (ERP & CRM exports) from the **[Data Warehouse Project](../data-warehouse-project/)**.  
+- Import datasets (ERP & CRM exports) from the **[Data Warehouse Project]([../data-warehouse-project/](https://github.com/mohamedr456/SQL-Data-Warehouse-Project)**.  
 - Create schemas and load data into your RDBMS.  
 
 ---
