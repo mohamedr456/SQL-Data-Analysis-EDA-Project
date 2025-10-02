@@ -123,6 +123,8 @@ I enjoy writing SQL queries, building data pipelines, and developing analytics s
 ---
 
 🌟 Stay Connected
-- 📧 Mail: mhmdrby769@gmail.com
-- 📱 Phone: +201070391523
-- 🔗 LinkedIn: https://www.linkedin.com/in/mohamed-rabea-991373261
+📧 Mail: mhmdrby769@gmail.com
+
+📱 Phone: +201070391523
+
+🔗 LinkedIn: https://www.linkedin.com/in/mohamed-rabea-991373261
