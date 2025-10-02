@@ -113,9 +113,9 @@ You are free to use, modify, and share this project with proper attribution.
 Hi there! 👋 I’m Mohamed Rabea Mohamed, a passionate Data Analyst & Aspiring Data Engineer.
 I enjoy writing SQL queries, building data pipelines, and developing analytics solutions that help businesses make better decisions.
 
-**🔹 Skills: SQL, Python, Data Modeling, ETL, Tableau, Power BI, Data Warehousing
-**🔹 Background: Computer Science student (Cairo University), Microsoft Certified Data Analyst, Freelance Data Engineer/Analyst
-**🔹 Goal: To leverage data & analytics for impactful business insights.
+- 🔹 Skills: SQL, Python, Data Modeling, ETL, Tableau, Power BI, Data Warehousing
+- 🔹 Background: Computer Science student (Cairo University), Microsoft Certified Data Analyst, Freelance Data Engineer/Analyst
+- 🔹 Goal: To leverage data & analytics for impactful business insights.
 
 ---
 
