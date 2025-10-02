@@ -1,7 +1,7 @@
 /*
-===============================================================================
-Customer Report
-===============================================================================
+ 
+-- Customer Report --
+ 
 Purpose:
     - This report consolidates key customer metrics and behaviors
 
@@ -18,7 +18,7 @@ Highlights:
 	    - recency (months since last order)
 		- average order value
 		- average monthly spend
-===============================================================================
+ 
 */
 
 -- =============================================================================

@@ -1,7 +1,7 @@
 /*
-===============================================================================
-Product Report
-===============================================================================
+ 
+-- Product Report --
+ 
 Purpose:
     - This report consolidates key product metrics and behaviors.
 
@@ -18,7 +18,7 @@ Highlights:
        - recency (months since last sale)
        - average order revenue (AOR)
        - average monthly revenue
-===============================================================================
+ 
 */
 -- =============================================================================
 -- Create Report: gold.report_products
@@ -100,13 +100,13 @@ SELECT
 	total_customers,
 	avg_selling_price,
 	-- Average Order Revenue (AOR)
-	CASE 
+	CASE -- To avoid deviding by Zero 
 		WHEN total_orders = 0 THEN 0
 		ELSE total_sales / total_orders
 	END AS avg_order_revenue,
 
 	-- Average Monthly Revenue
-	CASE
+	CASE -- If all sales comes from 1 month only so return it with no division over monthes. 
 		WHEN lifespan = 0 THEN total_sales
 		ELSE total_sales / lifespan
 	END AS avg_monthly_revenue

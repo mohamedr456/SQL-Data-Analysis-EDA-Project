@@ -1,14 +1,14 @@
 /*
-===============================================================================
-Measures Exploration (Key Metrics)
-===============================================================================
+ 
+-- Measures Exploration (Key Metrics) --
+ 
 Purpose:
     - To calculate aggregated metrics (e.g., totals, averages) for quick insights.
     - To identify overall trends or spot anomalies.
 
 SQL Functions Used:
     - COUNT(), SUM(), AVG()
-===============================================================================
+ 
 */
 
 -- Find the Total Sales
@@ -22,7 +22,7 @@ SELECT AVG(price) AS avg_price FROM gold.fact_sales
 
 -- Find the Total number of Orders
 SELECT COUNT(order_number) AS total_orders FROM gold.fact_sales
-SELECT COUNT(DISTINCT order_number) AS total_orders FROM gold.fact_sales
+SELECT COUNT(DISTINCT order_number) AS total_orders FROM gold.fact_sales -- To ensure there's no Duplicates.
 
 -- Find the total number of products
 SELECT COUNT(product_name) AS total_products FROM gold.dim_products
